@@ -1,0 +1,275 @@
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%
+}
+
+body {
+    margin: 0
+}
+
+a {
+    background-color: transparent
+}
+
+img {
+    border-style: none
+}
+
+::-webkit-file-upload-button {
+    -webkit-appearance: button;
+    font: inherit
+}
+
+* {
+    box-sizing: border-box
+}
+
+body {
+    background: #dadde1;
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color: #050505
+}
+
+.main {
+    background: #fff;
+    margin: 0 auto;
+    padding: 0 15px
+}
+
+#header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background: #3b5998;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+    margin-bottom: -7px
+}
+
+#back-icon img {
+    width: 100%
+}
+
+#back-icon {
+    position: absolute;
+    left: 10px;
+    top: 12px;
+    width: 17px
+}
+
+#title {
+    box-sizing: border-box;
+    display: inline-block;
+    overflow: hidden;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%
+}
+
+a {
+    color: inherit;
+    text-decoration: none
+}
+
+a:hover {
+    text-decoration: underline
+}
+
+.broadÑast-item.broadcast-item_current::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 3px;
+    background: transparent url("") repeat scroll 0 -1779px;
+    width: 24px;
+    height: 25px
+}
+
+img {
+    max-width: 100%
+}
+
+a:hover {
+    text-decoration: none
+}
+
+body {
+    font-family: sans-serif;
+    background: #ebedf0;
+    margin-bottom: 15px !important;
+    font-size: 17px !important;
+    line-height: 23px
+}
+
+a {
+    text-decoration: none;
+    color: #576b95
+}
+
+p {
+    color: #707070
+}
+
+#person_page {
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    padding: 7px;
+    margin-top: 5px
+}
+
+.avatar_img_left {
+    overflow: hidden;
+    border-radius: 100%;
+    width: 60px;
+    margin-right: 15px;
+    margin-left: 12px
+}
+
+.avatar_img_left img {
+    width: 100%
+}
+
+.erson_page_inner_left_item {
+    display: flex;
+    align-items: center
+}
+
+.erson_page_inner_left_item_info {
+    display: flex;
+    flex-direction: column
+}
+
+.erson_page_inner_right_img_liked, .info_doctor {
+    font-size: 15px;
+    color: gray
+}
+
+.erson_page_inner_right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px
+}
+
+.erson_page_inner_right_img {
+    width: 19px
+}
+
+.erson_page_inner_right_img img {
+    width: 100%
+}
+
+.erson_page_inner_right_img_liked p {
+    margin: 0;
+    font-size: 12px
+}
+
+.sms {
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px
+}
+
+.name_doctor {
+    font-size: 17px !important
+}
+
+.sms-el_mesage {
+    flex: 1;
+    min-width: 0;
+    width: 0;
+    background: #3578e5;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.sms-el_mesage img {
+    margin-right: 10px
+}
+
+.sms-el_mesage2 {
+    width: calc(16.67% - 7px);
+    background: #ebedf0
+}
+
+.sms-el_points {
+    width: calc(16.67% - 7px);
+    background: #ebedf0
+}
+
+.sms-el_mesage, .sms-el_mesage2, .sms-el_points {
+    margin: 6px 7px;
+    border-radius: 5px;
+    padding: 8px
+}
+
+.sms-el_mesage img, .sms-el_mesage2 img, .sms-el_points img {
+    width: 100%
+}
+
+.sms_inner_img {
+    width: 17px;
+    margin: 0 auto;
+    position: relative;
+    top: 2px
+}
+
+.sms-el_mesage .sms_inner_img {
+    margin: 0 !important
+}
+
+.liked23 {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 0 0 6px 13px;
+    background: #fff
+}
+
+.liked23_icon_inner {
+    width: 20px;
+    margin-right: 5px
+}
+
+.liked23_icon_inner img {
+    width: 100%
+}
+
+.liked23_info p {
+    margin: 0;
+    color: gray
+}
+
+body {
+    font-size: 16px;
+    font-family: sans-serif
+}
+
+header.facebook {
+    padding: 0;
+    background: #1f608a none repeat scroll 0 0;
+    position: relative;
+    color: #e8e8e8;
+    text-transform: none;
+}
+
+header.facebook #header {
+    text-transform: uppercase;
+}

